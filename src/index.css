@@ -1,4 +1,14 @@
 body,
 html {
   margin: 0;
+  position: relative;
 }
+
+input[type="range"] {
+  width: 200px;
+  position: absolute;
+  right: 20px;
+}
+
+input#range1 { top: 20px; }
+input#range2 { top: 60px; }
